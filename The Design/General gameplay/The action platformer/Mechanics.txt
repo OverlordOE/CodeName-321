@@ -1,0 +1,19 @@
+Player Actions
+	Movement
+		[Left/Right]
+		Using the A and D keys will move the character left and right, moving will cause an acceleration of about 0.2 seconds in the chosen direction
+
+		[Jumping]
+		pressing or holding the Spacebar key will move the character upwards but only if they were touching the ground while pressing space, jumping will allow the player to move anywhere between 2 to 4
+		tiles vertically depending on the length of the press. The jump has to be immediate and responsive.
+
+	Attacks
+		[Automatic Combo's]
+		{key?}, will perform a basic combo of attacks that continue by repeatedly pressing the button to begin the combo but only if the previous attack hit the opponent, and if the last hit connects to an
+		opponent will briefly slow time until any other attack is performed or 0.5 seconds has passed. The combo will go as follows:
+			- 1st hit -> Character performs a jab which will have plants extending out of his arms for 2 tiles, able to hit max. 3 enemies at once.
+			- 2nd hit -> Character performs a kick with a range of 3 tiles which knocks the opponent prone for 0.3 seconds, able to hit max. 3 enemies at once.
+			- 3rd hit -> Character performs an uppercut that sprouts a plant out of the ground under the opponent which will knock them up for 1.5 seconds, sprouts under any opponent caught in the combo.
+			- 4th hit -> Character conjures a giant hammer and charges it for as long as the activation key is held, the longer the charge the more damage it deals(dmg = 1.1x + B(where x is the amount of
+			time the button is held and B is the base damage of the move))
+			
