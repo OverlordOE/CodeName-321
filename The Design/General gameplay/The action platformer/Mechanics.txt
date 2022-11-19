@@ -1,0 +1,42 @@
+Player Actions
+	Movement
+		[basic movement]
+		
+
+			[Left/Right]
+		Using the A and D keys will move the character left and right, moving will cause an acceleration of about 0.2 seconds in the chosen direction
+
+			[Jumping]
+		pressing or holding the Spacebar key will move the character upwards but only if they were touching the ground while pressing space, jumping will allow the player to move anywhere between 2 to 4
+		tiles vertically depending on the length of the press. The jump has to be immediate and responsive.
+
+	Attacks
+		[Automatic Combo's]
+		any combo can flow over into any other combo, the second combo will then start where the 1st one left off. for example, the player uses combo 1 twice and then switches to combo 2, the player would use
+		the third attack in the sequence because that is where combo 1 left off. transitioning a combo can be done seemlessly.
+
+			[Combo 1]
+		{key?}, will perform a basic combo of attacks that continue by repeatedly pressing the button to begin the combo but only if the previous attack hit the opponent, and if the last hit connects to an
+		opponent will briefly slow time until any other attack is performed or 0.5 seconds has passed. The combo will go as follows:
+			- 1st hit -> Character performs a jab which will have plants extending out of his arms for 2 tiles, able to hit max. 3 enemies at once.
+			- 2nd hit -> Character performs a kick with a range of 3 tiles which knocks the opponent prone for 0.3 seconds, able to hit max. 3 enemies at once.
+			- 3rd hit -> Character performs an uppercut that sprouts a plant out of the ground under the opponent which will knock them up for 1.5 seconds, sprouts under any opponent caught in the combo.
+			- 4th hit -> Character conjures a giant hammer with a range of 6 tiles and charges it for as long as the activation key is held, the longer the charge the more damage it deals(dmg = 1.2x + B(where x is the amount of
+			time the button is held and B is the base damage))
+
+			[Combo 2]
+		{key?}, will perform a basic combo of attacks that continue by repeatedly pressing the button to begin the combo but only if the previous attack hit the opponent, and if the last hit connects to an
+		opponent will knock the enemies prone untill another attack hits them or 1.0 seconds has passed. THIS COMBO CAN ONLY BE STARTED FROM MID-AIR OR BE TRANSITIONED INTO FROM 2ND HIT ONWARDS. The combo will go as follows:
+			- 1st hit -> Character performs a groundpound that knocks all enemies in a 2 tile radius up for 0.3 seconds and knocks them back 0.5 tiles.
+			- 2nd hit -> Character sprouts plants from his torso 3 tiles in all directions, then sweeps the plants upwards to knock all enemies hit above the Character
+			- 3rd hit -> Character sprouts vines from his arms to leash the opponents and whip them into the floor 1 tile in front of the player
+			- 4th hit -> Character pushes all enemies 2 tiles away from themselves, whether or not they were caught in the combo.
+
+Buffs/Debuffs
+	Action Impairing/Boosting
+		[ knocked prone]
+	being knocked prone means for the duration of the effect you will not be able to take any actions. The length of this effect differs from cause to cause, it will be specified in the description of the causes.
+
+	
+
+		
